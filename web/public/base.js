@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 功能：公共组件操作
  * 作者：崔洪泉
  * 说明：页面的初始化，事件的绑定等
@@ -8,15 +8,15 @@ define(['jquery'], function ($) {
      * 地址
      * */
     var URL = {
-        MINI_LOGIN: '/user/oauth/user/miniLogin',//mini登录
-        USER_INFO: '/usercore/api/member/getUserLoginInfo',//登陆者信息
-        FUZZY_SEARCH: '/search/index/index/suggest?q=',//模糊搜索提示
-        SEARCH_PAGE: '/search/',//搜索列表页
-        GETHOT: '/search/index/index/getHotWord',
-        ADDCOLLECT: '/user/shop/mark/addMarkInfo',//添加收藏
-        PAGE_LOGIN: '/user/oauth/user/login'//登陆者页面
+        MINI_LOGIN: '',//mini登录
+        USER_INFO: '',//登陆者信息
+        FUZZY_SEARCH: '',//模糊搜索提示
+        SEARCH_PAGE: '',//搜索列表页
+        GETHOT: '',
+        ADDCOLLECT: '',//添加收藏
+        PAGE_LOGIN: ''//登陆者页面
         /*
-         * 暂时不用了：ajax全局搜索的地址是：/search/index/index/query
+         * 暂时不用了：ajax全局搜索的地址是：/ 
          * */
     };
     /*

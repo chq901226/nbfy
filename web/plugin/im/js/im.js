@@ -19,10 +19,10 @@ define(['jquery', 'easemob', 'uploadfile'], function ($, Easemob, uploadfile) {
         MESSAGE_TIP_TITLE = ['新消息', '　　　'],//标题新消息提示，数组俩个值进行闪烁
         ROSTER_EMPTY_HTML = '<p class="text-center">没有任何好友</p>',//好友列表为空时的展示
         URL = {
-            GET_CHAT_INFO: '/usercore/api/chat/getUserListInfo',//拿取好友的头像，名称信息
-            DEFAULT_IMG_URL: CSS_URL + 'web/plugin/im/image/custom_ser.jpg',//联系人默认的头像地址
-            AUTO_REG: '/usercore/api/chat/autoRegImUser',//im自动注册接口，服务器端请求im服务器
-            ADD_FRIEND: '/usercore/api/chat/addFriend'//添加好友 服务器端请求im服务器
+            GET_CHAT_INFO: '',//拿取好友的头像，名称信息
+            DEFAULT_IMG_URL: CSS_URL + '',//联系人默认的头像地址
+            AUTO_REG: '',//im自动注册接口，服务器端请求im服务器
+            ADD_FRIEND: ''//添加好友 服务器端请求im服务器
         },
         FILE_TYPE_FLAG = 'c631da6d1c0f3568916a54d6f453cb863b47cb74',//根据这个sha1 hash值来判断是不是文件信息
         CUSTOM_SERVICE = {

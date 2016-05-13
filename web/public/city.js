@@ -1,8 +1,8 @@
-define(['jquery'], function ($) {
+﻿define(['jquery'], function ($) {
     //获取绑定事件的dom
     var $combox = $('.city-select'),
-        url = '/index/common/city/getCityList',//从省到区
-        url_ = '/index/common/city/getCityInfo',//从区到省
+        url = '',//从省到区
+        url_ = '',//从区到省
         $pro,
         $city,
         $area,

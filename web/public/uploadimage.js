@@ -19,7 +19,7 @@ define(['jquery'], function ($) {
 
     var defaults = {
             id: 'upload',                                                                       //绑定上传事件的dom id,
-            url: '/index/common/uploadFile/img',                                                //文件上传的地址，
+            url: '',                                                //文件上传的地址，
             multi: 1,                                                                           //是否多文件上传，为>1的数字时多文件，为1时单文件
             fileName: 'file_name',                                                              //后台拿取文件时的key值
             limitType: 'image/gif,image/jpeg,image/jpg,image/png',                              //上传文件的MIME类型

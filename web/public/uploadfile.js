@@ -16,7 +16,7 @@ define(['jquery'], function ($) {
 
     var defaults = {
             id: 'upload',                                                                       //绑定上传事件的dom id,
-            url: '/index/common/uploadFile/file',                                               //文件上传的地址，
+            url: '',                                               //文件上传的地址，
             btnText: '上传文件',                                                                 //按钮的文本显示
             multi: 1,                                                                           //是否多文件上传，为>1的数字时多文件，为1时单文件
             fileName: 'file_name',                                                              //后台拿取文件时的key值
@@ -231,7 +231,7 @@ define(['jquery'], function ($) {
 
                         //删除上传隐藏域
                         var wrap = dom.getElementById('upi_iframe_wrap');
-                        wrap.parentNode.removeChild(wrap);
+                        delete wrap.parentNode.removeChild(wrap);
 
                         file_wrap.appendChild(cloneEle);
                         //清空里面file的内容
